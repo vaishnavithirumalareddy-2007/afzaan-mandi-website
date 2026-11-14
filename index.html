@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Afzaan Mandi Restaurant | The Royal Taste of Mandi</title>
+<meta name="description" content="Afzaan Mandi Restaurant: authentic Yemeni and Arabian mandi. Rated 4.8 on Google by 2,262 guests. View the menu, book a table and get directions.">
+<meta name="theme-color" content="#0a0705">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<meta property="og:title" content="Afzaan Mandi Restaurant | The Royal Taste of Mandi">
+<meta property="og:description" content="Authentic Yemeni / Arabian mandi. 4.8 on Google (2,262 reviews).">
+<meta property="og:type" content="restaurant">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/styles.css">
+<script type="application/ld+json" id="ld"></script>
+</head>
+<body>
+
+
+<div id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <div class="loader-ring"></div>
+    <div class="loader-name">AFZAAN MANDI</div>
+    <div class="loader-sub">The Royal Taste of Mandi</div>
+    <div class="loader-bar"><span></span></div>
+  </div>
+</div>
+
+<header id="nav">
+  <a href="#home" class="brand" aria-label="Afzaan Mandi home">AFZAAN <em>MANDI</em></a>
+  <nav id="links" aria-label="Main">
+    <a href="#about">About</a>
+    <a href="#menu">Menu</a>
+    <a href="#experience">Experience</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#visit">Visit</a>
+  </nav>
+  <div class="nav-actions">
+    <button id="cartBtn" class="cart-btn" aria-label="Open cart">Cart <b id="cartCount">0</b></button>
+    <a href="#book" class="btn btn-sm">Book a Table</a>
+    <button id="burger" aria-label="Toggle menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section id="home" class="hero">
+  <canvas id="hero3d" aria-hidden="true"></canvas>
+  <div class="hero-vignette"></div>
+  <div class="hero-copy">
+    <p class="eyebrow">Yemeni · Arabian · Mandi</p>
+    <h1><span class="gold-text">AFZAAN MANDI</span></h1>
+    <h2>THE ROYAL TASTE OF MANDI</h2>
+    <p class="hero-sub">Experience the Authentic Taste of Arabian Cuisine.</p>
+    <div class="hero-cta">
+      <a href="#menu" class="btn btn-gold">Explore Our Menu</a>
+      <a href="#book" class="btn btn-ghost">Book Your Table</a>
+    </div>
+    <div class="hero-rating"><span class="stars" data-stars="4.8"></span> <b>4.8</b> on Google · <span data-count></span> reviews</div>
+  </div>
+  <a href="#about" class="scroll-hint" aria-label="Scroll down"><span></span></a>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section about">
+  <div class="wrap about-grid">
+    <div class="about-media reveal">
+      <div class="frame" id="aboutImg"></div>
+      <div class="glass badge"><b>4.8★</b><span>Loved by guests on Google</span></div>
+    </div>
+    <div class="about-text">
+      <p class="eyebrow reveal">Our Story</p>
+      <h2 class="title split">A Taste Worth Remembering</h2>
+      <p class="reveal">Afzaan Mandi brings the soul of Yemeni dining to your table — fragrant, slow-cooked rice, tender meat and the generous hospitality that mandi is known for.</p>
+      <p class="reveal">Every plate is served to be shared: a gathering around a great meal, in a setting designed to feel special. Come hungry, come together.</p>
+      <div class="glass about-card reveal">
+        <div><b data-count-up="4.8" data-dec="1">0</b><span>Google rating</span></div>
+        <div><b data-count-up="2262">0</b><span>Google reviews</span></div>
+        <div><b>Mandi</b><span>Our specialty</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MENU -->
+<section id="menu" class="section menu">
+  <div class="wrap">
+    <p class="eyebrow center reveal">Signature Menu</p>
+    <h2 class="title center split">Crafted for the Table</h2>
+    <div id="tabs" class="tabs reveal" role="tablist"></div>
+    <div id="menuGrid" class="menu-grid"></div>
+    <p class="note reveal">Dish names, descriptions and prices are editable placeholders until the restaurant confirms its live menu. Dish visuals are 3D renderings until real photographs are added.</p>
+  </div>
+</section>
+
+<!-- 3D EXPERIENCE -->
+<section id="experience" class="section experience">
+  <div class="wrap">
+    <p class="eyebrow center reveal">The 3D Food Experience</p>
+    <h2 class="title center split">Hover. Feel. Crave.</h2>
+    <div id="expGrid" class="exp-grid"></div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section why">
+  <div class="wrap">
+    <p class="eyebrow center reveal">Why Choose Us</p>
+    <h2 class="title center split">Why Choose Afzaan Mandi?</h2>
+    <div class="why-grid">
+      <article class="glass why-card reveal"><svg viewBox="0 0 48 48"><path d="M24 4l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1z"/></svg><h3>Authentic Arabian Taste</h3><p>Traditional mandi flavors, slow-cooked the way it is meant to be.</p></article>
+      <article class="glass why-card reveal"><svg viewBox="0 0 48 48"><path d="M8 28h32a16 16 0 01-32 0zM14 22c0-4 4-4 4-8M24 22c0-4 4-4 4-8M34 22c0-4 4-4 4-8"/></svg><h3>Delicious Food</h3><p>Generous portions, rich aroma and flavor in every bite.</p></article>
+      <article class="glass why-card reveal"><svg viewBox="0 0 48 48"><path d="M10 40V20l14-12 14 12v20zM20 40V28h8v12"/></svg><h3>Premium Dining Experience</h3><p>A warm, elegant setting made for family and friends.</p></article>
+      <article class="glass why-card reveal"><svg viewBox="0 0 48 48"><path d="M24 40S6 29 6 17a9 9 0 0118-3 9 9 0 0118 3c0 12-18 23-18 23z"/></svg><h3>Customer Satisfaction</h3><p>Rated 4.8 on Google by thousands of happy guests.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="section reviews">
+  <div class="wrap center">
+    <p class="eyebrow reveal">Guest Reviews</p>
+    <h2 class="title split">Rated by Thousands</h2>
+    <div class="score reveal"><span class="gold-text" id="scoreNum">4.8</span><small>/ 5.0</small></div>
+    <div class="stars big" data-stars="4.8"></div>
+    <p class="reveal">Based on <b data-count></b> Google reviews</p>
+    <div class="rev-grid">
+      <div class="glass rev-card reveal"><b>4.8</b><span class="stars" data-stars="4.8"></span><p>Average Google rating</p></div>
+      <div class="glass rev-card reveal"><b data-count-up="2262">0</b><span class="stars" data-stars="5"></span><p>Guests have shared their experience</p></div>
+      <div class="glass rev-card reveal"><b>Real</b><span class="stars" data-stars="5"></span><p>Read verified guest reviews directly on Google</p></div>
+    </div>
+    <a id="readReviews" class="btn btn-gold reveal" href="#" target="_blank" rel="noopener">Read Google Reviews</a>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section gallery">
+  <div class="wrap">
+    <p class="eyebrow center reveal">Gallery</p>
+    <h2 class="title center split">An Evening at Afzaan</h2>
+    <div id="galGrid" class="gal-grid"></div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section id="book" class="section book">
+  <div class="wrap book-grid">
+    <div>
+      <p class="eyebrow reveal">Reservations</p>
+      <h2 class="title split">Book Your Table</h2>
+      <p class="reveal">Tell us when you are coming. Send the request to the restaurant by WhatsApp or email and they will confirm it with you.</p>
+    </div>
+    <form id="bookForm" class="glass form reveal" novalidate>
+      <div class="row"><label>Name<input name="name" required autocomplete="name"></label><label>Phone<input name="phone" type="tel" required autocomplete="tel"></label></div>
+      <div class="row"><label>Date<input name="date" type="date" required></label><label>Time<input name="time" type="time" required></label></div>
+      <label>Guests<select name="guests"></select></label>
+      <label>Notes (optional)<textarea name="notes" rows="2"></textarea></label>
+      <button class="btn btn-gold" type="submit">Request Reservation</button>
+      <p class="form-msg" id="bookMsg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section id="visit" class="section visit">
+  <div class="wrap">
+    <p class="eyebrow center reveal">Find Us</p>
+    <h2 class="title center split">Visit Afzaan Mandi</h2>
+    <div class="visit-grid">
+      <div class="map glass reveal"><svg class="grid" viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><g fill="none" stroke="#d4af37" stroke-opacity=".22" stroke-width="1"><path d="M0 60h400M0 140h400M0 220h400M60 0v300M150 0v300M250 0v300M340 0v300"/><path stroke-opacity=".4" stroke-width="2" d="M0 250C90 200 150 190 210 140S330 60 400 40"/><path d="M0 90C80 110 140 100 190 160S300 230 400 210"/></g></svg>
+        <div class="pin"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 119.5 9 2.5 2.5 0 0112 11.5z"/></svg><h3>Afzaan Mandi Restaurant</h3><p>Rated 4.8 on Google by 2,262 guests</p><a id="mapBtn" class="btn btn-gold" target="_blank" rel="noopener" href="#">Open in Google Maps</a></div></div>
+      <div class="info glass reveal">
+        <h3>Contact</h3>
+        <p id="addr"></p>
+        <p id="phoneLine"></p>
+        <p id="emailLine"></p>
+        <div class="hero-cta"><a id="dirBtn" class="btn btn-gold" target="_blank" rel="noopener" href="#">Get Directions</a><a id="callBtn" class="btn btn-ghost" href="#">Call Now</a></div>
+        <h3>Opening Hours</h3>
+        <ul id="hours" class="hours"></ul>
+        <form id="contactForm" class="mini" novalidate>
+          <h3>Send a Message</h3>
+          <input name="name" placeholder="Your name" required>
+          <input name="contact" placeholder="Phone or email" required>
+          <textarea name="message" rows="2" placeholder="Your message" required></textarea>
+          <button class="btn btn-sm" type="submit">Send</button>
+          <p class="form-msg" id="contactMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="wrap foot-grid">
+    <div><div class="brand big">AFZAAN <em>MANDI</em></div><p>The Royal Taste of Mandi.</p></div>
+    <div><h4>Navigate</h4><a href="#about">About</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#book">Book a Table</a></div>
+    <div><h4>Visit</h4><span id="fAddr"></span><span id="fPhone"></span><span id="fEmail"></span></div>
+    <div><h4>Follow</h4><a id="fIg" href="#" target="_blank" rel="noopener">Instagram</a><a id="fFb" href="#" target="_blank" rel="noopener">Facebook</a></div>
+  </div>
+  <p class="copy">© <span id="yr"></span> Afzaan Mandi Restaurant. All rights reserved.</p>
+</footer>
+
+<aside id="cart" class="cart glass" aria-label="Your order">
+  <div class="cart-head"><h3>Your Order</h3><button id="cartClose" aria-label="Close cart">✕</button></div>
+  <ul id="cartList"></ul>
+  <p id="cartTotal" class="cart-total"></p>
+  <button id="sendOrder" class="btn btn-gold">Send Order Enquiry</button>
+  <p class="form-msg" id="cartMsg" role="status"></p>
+</aside>
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true"><button aria-label="Close">✕</button><div id="lbContent"></div></div>
+<div id="toast" class="toast" role="status"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
